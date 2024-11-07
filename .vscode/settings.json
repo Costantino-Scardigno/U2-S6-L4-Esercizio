@@ -1,0 +1,30 @@
+{
+  "workbench.colorTheme": "Default High Contrast",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.enableDebugLogs": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.formatOnSave": true,
+  "liveSassCompile.settings.formats": [
+
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/assets/css",
+      
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/assets/dist/css",
+      
+    },
+    
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "/bootstrap/**"
+  ],
+  "liveServer.settings.port": 5501
+}
